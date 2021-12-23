@@ -187,6 +187,24 @@
 				width:440px;
 				height: 100px;
 			}
+			.animate{
+				margin: 0px 600px;
+			}
+			.globe {
+				background: url("../images/worlds.png") no-repeat 0px 0px;
+				width: 78px;
+				height: 78px;
+				float:left;
+				border-radius: 60px;
+				animation: globally 1s steps(12) infinite; 
+
+
+}
+@keyframes globally{
+	100%{background-position: -936px;}
+
+}
+
 			.fbsprite{
 				background: url("../images/logos.png") no-repeat -169px -79px;
 				width: 28px;
